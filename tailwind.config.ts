@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,21 +53,51 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				amma: {
+					50: '#FEF8F0',
+					100: '#FEEACE',
+					200: '#FDD6A8',
+					300: '#FBC378',
+					400: '#FAB054',
+					500: '#F99D2A',
+					600: '#E08311',
+					700: '#A5610C',
+					800: '#6F4108',
+					900: '#342004',
+				},
+				spice: {
+					50: '#FDF2F2',
+					100: '#FCE4E4',
+					200: '#F9CDCD',
+					300: '#F4A9A9',
+					400: '#ED7878',
+					500: '#E54D4D',
+					600: '#D22D2D',
+					700: '#AE2323',
+					800: '#8F1D1D',
+					900: '#771A1A',
+				},
+				leaf: {
+					50: '#F4F9F0',
+					100: '#E7F2DF',
+					200: '#D0E5C0',
+					300: '#B3D599',
+					400: '#93C36D',
+					500: '#75AC4B',
+					600: '#5C8A3C',
+					700: '#46682D',
+					800: '#35501F',
+					900: '#273A17',
 				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				sans: ['Poppins', 'sans-serif'],
+				serif: ['Playfair Display', 'serif'],
 			},
 			keyframes: {
 				'accordion-down': {
